@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+body {
+    background-color: #F9FBFE;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-brand img {
+    max-height: 76px;
+}
+
+.navbar {
+    box-shadow: 4px 0px 40px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    color: #97BFF6;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #2F80ED;
+}
+
+/* main */
+
+.searchKtp {
+    height: 100%;
+}
+
+.searchKtp .illus {
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.searchKtp .illus img {
+    width: 85px;
+    height: 75.89px;
+    max-height: 75.89px;
+}
+
+.searchKtp .illus h3 {
+    font-weight: 700;
+}
+
+.searchKtp .illus p {
+    width: 640px;
+    margin: 0px auto;
+}
+
+.searchBox {
+    background-color: white;
+    padding: 36px;
+    width: 540px;
+    border-radius: 16px;
+    box-shadow: 4px 0px 24px rgba(0, 0, 0, 0.04);
+    margin-bottom: 80px;
+}
+
+/* mobile styling */
+
+@media only screen and (max-width: 800px) {
+    .searchKtp .illus p {
+        width: 400px;
+    }
+
+    .searchBox {
+        padding: 36px;
+        width: 460px;
+    }
+}
