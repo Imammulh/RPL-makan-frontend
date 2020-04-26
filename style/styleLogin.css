@@ -30,44 +30,31 @@ body {
 
 /* main */
 
-.searchKtp .illus {
+.login .head {
     margin-top: 80px;
     margin-bottom: 24px;
 }
 
-.searchKtp .illus img {
-    width: 85px;
-    height: 75.89px;
-    max-height: 75.89px;
+.login .head img {
+    max-height: 80px;
+    max-width: 80px;
+    margin-bottom: 16px;
 }
 
-.searchKtp .illus h3 {
-    font-weight: 700;
-}
-
-.searchKtp .illus p {
-    width: 640px;
-    margin: 0px auto;
-    color: #828282;
-}
-
-.searchBox {
+.login .loginBox {
     background-color: white;
     padding: 36px;
     width: 540px;
     border-radius: 16px;
     box-shadow: 4px 0px 24px rgba(0, 0, 0, 0.04);
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
+
 
 /* mobile styling */
 
 @media only screen and (max-width: 800px) {
-    .searchKtp .illus p {
-        width: 400px;
-    }
-
-    .searchBox {
+    .login .loginBox {
         width: 460px;
     }
 }
