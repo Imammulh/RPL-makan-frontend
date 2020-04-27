@@ -11,10 +11,15 @@ body {
     box-shadow: 4px 0px 40px rgba(0, 0, 0, 0.04);
 }
 
+.navbar .navbar-nav .nav-item .active {
+    color: #2F80ED;
+}
+
 .navbar .navbar-brand h2 {
     font-size: 24px;
     margin-bottom: 0px;
-    color: #97BFF6;
+    color: #2F80ED;
+    font-weight: 700;
 }
 
 .navbar .navbar-nav .nav-link {
